@@ -45,37 +45,170 @@ Sau khi cài đặt xong, click chọn Finish để hoàn tất việc cài đ�
 ## Cài Đặt centos 7
   **Sau khi cài đặt VMware xong chúng ta tiến hành cài đặt centos 7 như sau:**
 
-1. Khởi động máy ảo VMware > File > New Virtual Machine.![]()
-2. Chọn Custom > Next.![]()
-3. Check vào ô I will install the operating system later. > Next.![]()
-4. Chọn Linux > Version: Centos 7 64-bit (ở đây, máy của mình là 64bit nên mình sẽ chọn là centos 7 64-bit).![]()
-5. Đặt tên và chọn nơi lưu file (đây là file đĩa ảo, file này khá nặng nên lưu ở ổ đĩa nào còn trống nhiều dung lượng để tránh gặp lỗi khi cài đặt).![]()
-6. Chọn tốc độ xử lý của máy ảo.![]()
-7. Chọn RAM,  nếu ram bạn nhiều thì có thể để lên cao hơn nữa.![]()
-8. Thiết lập card mạng cho máy ảo ( bạn có thể chọn card nat hoặc bried).![]()
-9. Thiết lập chế độ nhập xuất.![]()
-10. Tiếp click Next.![]()
-11. Tạo một ổ đĩa ảo mới. Chọn Create a new virtual disk > Next. ![]()
-12. Chọn dung lượng cho ổ đĩa đó, mình để mặc định là 40GB. NHỚ CHỌN Store virtual disk as a single file. ![]()
-13. Chọn đường dẫn lưu file ổ đĩa ảo, sau này có thể copy và chuyển qua máy tính khác mã vẫn dùng được máy ảo.![]()
-14. Chọn Customize Hardware để kiếm tra lại các thiếp lập.![]()
-15. New CD/DVD  (IDE) > Use ISO image file và chọn đến đường dẫn file ISO centos 7 đã tải về ở trên. Sau đó ấn Close.![]()
-16. Chọn Finish. ![]()
-17. Khởi động centos bằng Power on this virtual machine.![]()
-18. Chọn Install centos 7. ![]()
-19. Thiết lập ngôn ngữ > Continue (english khuyến cáo).![]()
-20. Thiết lập ngày, giờ. DATE & TIME > Done (set giờ việt nam nhé, cứ trỏ chuột vào bản đồ việt nam). ![]()
+1. Khởi động máy ảo VMware > File > New Virtual Machine.
+
+![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-1-cai-dat-centos.jpg)
+
+
+2. Chọn Custom > Next.
+
+![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-2-cai-dat-centos.jpg)
+
+
+3. Check vào ô I will install the operating system later. > Next.
+
+![Centos7]()
+
+
+4. Chọn Linux > Version: Centos 7 64-bit (ở đây, máy của mình là 64bit nên mình sẽ chọn là centos 7 64-bit).
+
+![Centos7]()
+
+
+5. Đặt tên và chọn nơi lưu file (đây là file đĩa ảo, file này khá nặng nên lưu ở ổ đĩa nào còn trống nhiều dung lượng để tránh gặp lỗi khi cài đặt).
+
+![]()
+
+
+6. Chọn tốc độ xử lý của máy ảo.
+
+![Centos7]()
+
+
+7. Chọn RAM,  nếu ram bạn nhiều thì có thể để lên cao hơn nữa.
+
+![Centos7]()
+
+
+8. Thiết lập card mạng cho máy ảo ( bạn có thể chọn card nat hoặc bried).
+
+![Centos7]()
+
+
+9. Thiết lập chế độ nhập xuất.
+
+![Centos7]()
+
+
+10. Tiếp click Next.
+
+![Centos7]()
+
+
+11. Tạo một ổ đĩa ảo mới. Chọn Create a new virtual disk > Next. 
+
+![Centos7]()
+
+
+12. Chọn dung lượng cho ổ đĩa đó, mình để mặc định là 40GB. NHỚ CHỌN Store virtual disk as a single file. 
+
+![Centos7]()
+
+
+13. Chọn đường dẫn lưu file ổ đĩa ảo, sau này có thể copy và chuyển qua máy tính khác mã vẫn dùng được máy ảo.
+
+![Centos7]()
+
+
+14. Chọn Customize Hardware để kiếm tra lại các thiếp lập.
+
+![Centos7]()
+
+
+15. New CD/DVD  (IDE) > Use ISO image file và chọn đến đường dẫn file ISO centos 7 đã tải về ở trên. Sau đó ấn Close.
+
+![Centos7]()
+
+
+16. Chọn Finish.
+
+![Centos7]()
+
+
+17. Khởi động centos bằng Power on this virtual machine.
+
+![Centos7]()
+
+
+18. Chọn Install centos 7. 
+
+![Centos7]()
+
+
+19. Thiết lập ngôn ngữ > Continue (english khuyến cáo).
+
+![Centos7]()
+
+
+20. Thiết lập ngày, giờ. DATE & TIME > Done (set giờ việt nam nhé, cứ trỏ chuột vào bản đồ việt nam). 
+
+![Centos7]()
+
+
 21. Ở mục SOFTWATE SELECTION, chọn giao diện đồ hoạ (GUI) để dễ dàng thao tác:
-      Server with GUI > KDE > Done. ![]()
-22. Mục INSTALLATION DESTINATION, chọn ổ đĩa ảo 40GB mình đã tạo lúc nãy > Done. ![]()
-23. Mục NETWORK & HOST NAME, chọn ON > Done. ![]()
-24. Chọn Begin Installation. ![]()
-25. Thiết lập tài khoản ROOT, tài khoản này rất quan trọng nên cần phải ghi nhớ mật khẩu.![]()
+      Server with GUI > KDE > Done. 
+      
+      ![Centos7]()
+      
+      
+22. Mục INSTALLATION DESTINATION, chọn ổ đĩa ảo 40GB mình đã tạo lúc nãy > Done. 
+
+![Centos7]()
+
+
+23. Mục NETWORK & HOST NAME, chọn ON > Done. 
+
+![Centos7]()
+
+
+24. Chọn Begin Installation. 
+
+![Centos7]()
+
+
+25. Thiết lập tài khoản ROOT, tài khoản này rất quan trọng nên cần phải ghi nhớ mật khẩu.
+
+![Centos7]()
+
+
 26. Chờ máy tự động cài đặt, bạn chờ khoảng 3 đến 5 phút tuỳ vào cấu hình của máy tính. Click Reboot
-27. Tick chọn I accept the license agreement. ![]()
-28. Tạo tài khoản mới để đăng nhập vào hệ thống.![]()
-29. Set mật khẩu cho tài khoản của bạn vừa tạo lúc nãy. LƯU Ý 2 MẬT KHẨU ROOT VÀ USER KHÁC NHAU. ![]()
+27. Tick chọn I accept the license agreement. 
+
+![Centos7]()
+
+
+28. Tạo tài khoản mới để đăng nhập vào hệ thống.
+
+![Centos7]()
+
+
+29. Set mật khẩu cho tài khoản của bạn vừa tạo lúc nãy. LƯU Ý 2 MẬT KHẨU ROOT VÀ USER KHÁC NHAU.
+
+![Centos7]()
+
+
 30. Giờ ta đã có thể chạy được Centos trên máy ảo VMware.
+
+![Centos7]()
+
+
+## Cài Đặt Ubuntu 16
+
+1. Bạn nhấn vào nút Create a New Virtual Machine.
+2. Chọn dạng cài đặt là Typical => sau đó nhấn chọn Next để tiếp tục.
+3. Tích chọn Installer disc image file (iso) => nhấn vào Browse..... để chọn đường dẫn trỏ tới file ISO của bộ cài Ubuntu => và Next.
+4. Đặt Tên và Password (lưu ý không viết hoa chữ cái đầu tiên cho user name nhé). Sau đó nhấn Next.
+    Bạn có thể đặt lại tên trong mục Virtual machine name: , hoặc có thể giữ nguyên theo mặc định => chọn Next.
+5. Chọn dung lượng ổ cứng cho máy ảo như hình, theo mình bạn nên để trong khoản 20 – 50 GB tùy vào dung lượng ổ cứng và nhu cầu sử dụng của bạn.
+6. Bạn có thể chọn Customize Hardware để thay đổi tùy chọn và có nhiều tùy chọn hơn.
+7. Các tùy chọn có thể thay đổi như hình dưới. Nếu như máy tính của bạn có dung lượng RAM lớn, thì nên để RAM nhiều nhiều một chút để máy tính ảo chạy mượt hơn.
+    Sau đó nhấn Close và Finish.
+8. Giao diện cài xong như hình bên dưới => chọn Power on the virtual machine để khởi động và boot vào bộ cài Ubuntu.
+
+Quá trình boot và bung file Ubuntu ra máy ảo đang diễn ra. Bạn đợi cho quá trình này kết thúc thôi
+
+**Vậy là thành công rồi !**
+
 
  
 
