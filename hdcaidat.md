@@ -19,10 +19,13 @@
 
 
 2. Đánh dấu check vào ô “I accept the terms in the License Agreement”, sau đó tiếp tục bấm Next.
+
 ![setup](https://tungphatcomputer.com/images/upload/images/buoc-2-cai-dat-vmware.jpg)
 
 
-3. Bước này chọn nơi mà phần mềm được lưu trữ trên máy tính của bạn, nếu không muốn thay đổi thì ta để mặc định, rồi chọn Next.![setup](https://tungphatcomputer.com/images/upload/images/buoc-3-cai-dat-vmware.jpg)
+3. Bước này chọn nơi mà phần mềm được lưu trữ trên máy tính của bạn, nếu không muốn thay đổi thì ta để mặc định, rồi chọn Next.
+
+![setup](https://tungphatcomputer.com/images/upload/images/buoc-3-cai-dat-vmware.jpg)
 
 
 4. Tiếp tục chọn Next.
@@ -57,139 +60,142 @@ Sau khi cài đặt xong, click chọn Finish để hoàn tất việc cài đ�
 
 3. Check vào ô I will install the operating system later. > Next.
 
-![Centos7]()
+![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-3-cai-dat-centos.jpg)
 
 
 4. Chọn Linux > Version: Centos 7 64-bit (ở đây, máy của mình là 64bit nên mình sẽ chọn là centos 7 64-bit).
 
-![Centos7]()
+![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-4-cai-dat-centos.jpg)
 
 
 5. Đặt tên và chọn nơi lưu file (đây là file đĩa ảo, file này khá nặng nên lưu ở ổ đĩa nào còn trống nhiều dung lượng để tránh gặp lỗi khi cài đặt).
 
-![]()
+![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-5-cai-dat-centos.jpg)
 
 
 6. Chọn tốc độ xử lý của máy ảo.
 
-![Centos7]()
+![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-6-cai-dat-centos.jpg)
 
 
 7. Chọn RAM,  nếu ram bạn nhiều thì có thể để lên cao hơn nữa.
 
-![Centos7]()
+![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-7-cai-dat-centos.jpg)
 
 
 8. Thiết lập card mạng cho máy ảo ( bạn có thể chọn card nat hoặc bried).
 
-![Centos7]()
+![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-8-cai-dat-centos.jpg)
 
 
 9. Thiết lập chế độ nhập xuất.
 
-![Centos7]()
+![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-9-cai-dat-centos.jpg)
 
 
 10. Tiếp click Next.
 
-![Centos7]()
+![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-10-cai-dat-centos.jpg)
 
 
 11. Tạo một ổ đĩa ảo mới. Chọn Create a new virtual disk > Next. 
 
-![Centos7]()
+![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-11-cai-dat-centos.jpg)
 
 
 12. Chọn dung lượng cho ổ đĩa đó, mình để mặc định là 40GB. NHỚ CHỌN Store virtual disk as a single file. 
 
-![Centos7]()
+![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-12-cai-dat-centos.jpg)
 
 
 13. Chọn đường dẫn lưu file ổ đĩa ảo, sau này có thể copy và chuyển qua máy tính khác mã vẫn dùng được máy ảo.
 
-![Centos7]()
+![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-13-cai-dat-centos.jpg)
 
 
 14. Chọn Customize Hardware để kiếm tra lại các thiếp lập.
 
-![Centos7]()
+![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-14-cai-dat-centos.jpg)
 
 
 15. New CD/DVD  (IDE) > Use ISO image file và chọn đến đường dẫn file ISO centos 7 đã tải về ở trên. Sau đó ấn Close.
 
-![Centos7]()
+![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-15-cai-dat-centos.jpg)
 
 
 16. Chọn Finish.
 
-![Centos7]()
+![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-16-cai-dat-centos.jpg)
 
 
 17. Khởi động centos bằng Power on this virtual machine.
 
-![Centos7]()
+![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-17-cai-dat-centos.jpg)
 
 
 18. Chọn Install centos 7. 
 
-![Centos7]()
+![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-18-cai-dat-centos.jpg)
 
 
 19. Thiết lập ngôn ngữ > Continue (english khuyến cáo).
 
-![Centos7]()
+![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-19-cai-dat-centos.jpg)
 
 
 20. Thiết lập ngày, giờ. DATE & TIME > Done (set giờ việt nam nhé, cứ trỏ chuột vào bản đồ việt nam). 
 
-![Centos7]()
+![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-20-cai-dat-centos.jpg)
 
 
 21. Ở mục SOFTWATE SELECTION, chọn giao diện đồ hoạ (GUI) để dễ dàng thao tác:
       Server with GUI > KDE > Done. 
       
-      ![Centos7]()
+      ![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-21-cai-dat-centos.jpg)
       
       
 22. Mục INSTALLATION DESTINATION, chọn ổ đĩa ảo 40GB mình đã tạo lúc nãy > Done. 
 
-![Centos7]()
+![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-22-cai-dat-centos.jpg)
 
 
 23. Mục NETWORK & HOST NAME, chọn ON > Done. 
 
-![Centos7]()
+![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-23-cai-dat-centos.jpg)
 
 
 24. Chọn Begin Installation. 
 
-![Centos7]()
+![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-24-cai-dat-centos.jpg)
 
 
 25. Thiết lập tài khoản ROOT, tài khoản này rất quan trọng nên cần phải ghi nhớ mật khẩu.
 
-![Centos7]()
+![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-25-cai-dat-centos.jpg)
 
 
 26. Chờ máy tự động cài đặt, bạn chờ khoảng 3 đến 5 phút tuỳ vào cấu hình của máy tính. Click Reboot
+
+![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-26-cai-dat-centos.jpg)
+
 27. Tick chọn I accept the license agreement. 
 
-![Centos7]()
+![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-27-cai-dat-centos.jpg)
 
 
 28. Tạo tài khoản mới để đăng nhập vào hệ thống.
 
-![Centos7]()
+![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-28-cai-dat-centos.jpg)
 
 
 29. Set mật khẩu cho tài khoản của bạn vừa tạo lúc nãy. LƯU Ý 2 MẬT KHẨU ROOT VÀ USER KHÁC NHAU.
 
-![Centos7]()
+![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-29-cai-dat-centos.jpg)
 
 
 30. Giờ ta đã có thể chạy được Centos trên máy ảo VMware.
 
-![Centos7]()
+![Centos7](https://tungphatcomputer.com/images/upload/images/buoc-30-cai-dat-centos.jpg)
 
 
 ## Cài Đặt Ubuntu 16
