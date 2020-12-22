@@ -13,7 +13,7 @@
 
 ## Cài đặt VMware Wokstation
 
-1. Mở file setup vmware vừa tải về Click chọn Next.
+1. Mở file setup vmware vừa tải về Click chọn Next.[]()
 2. Đánh dấu check vào ô “I accept the terms in the License Agreement”, sau đó tiếp tục bấm Next.
 3. Bước này chọn nơi mà phần mềm được lưu trữ trên máy tính của bạn, nếu không muốn thay đổi thì ta để mặc định, rồi chọn Next.
 4. Tiếp tục chọn Next.
