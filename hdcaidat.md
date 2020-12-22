@@ -27,19 +27,19 @@ Sau khi cài đặt xong, click chọn Finish để hoàn tất việc cài đ�
 
 1. Khởi động máy ảo VMware > File > New Virtual Machine.
 2. Chọn Custom > Next.
-3:  check vào ô I will install the operating system later. > Next.
-4.  Chọn Linux > Version: Centos 7 64-bit (ở đây, máy của mình là 64bit nên mình sẽ chọn là centos 7 64-bit).
-5.  Đặt tên và chọn nơi lưu file (đây là file đĩa ảo, file này khá nặng nên lưu ở ổ đĩa nào còn trống nhiều dung lượng để tránh gặp lỗi khi cài đặt).
+3. Check vào ô I will install the operating system later. > Next.
+4. Chọn Linux > Version: Centos 7 64-bit (ở đây, máy của mình là 64bit nên mình sẽ chọn là centos 7 64-bit).
+5. Đặt tên và chọn nơi lưu file (đây là file đĩa ảo, file này khá nặng nên lưu ở ổ đĩa nào còn trống nhiều dung lượng để tránh gặp lỗi khi cài đặt).
 6. Chọn tốc độ xử lý của máy ảo.
 7. Chọn RAM,  nếu ram bạn nhiều thì có thể để lên cao hơn nữa.
 8. Thiết lập card mạng cho máy ảo ( bạn có thể chọn card nat hoặc bried)
-9.  Thiết lập chế độ nhập xuất
-10. tiếp click Next
-11.  Tạo một ổ đĩa ảo mới. Chọn Create a new virtual disk > Next
+9. Thiết lập chế độ nhập xuất
+10. Tiếp click Next
+11. Tạo một ổ đĩa ảo mới. Chọn Create a new virtual disk > Next
 12. Chọn dung lượng cho ổ đĩa đó, mình để mặc định là 40GB. NHỚ CHỌN Store virtual disk as a single file
 13. Chọn đường dẫn lưu file ổ đĩa ảo, sau này có thể copy và chuyển qua máy tính khác mã vẫn dùng được máy ảo.
 14. Chọn Customize Hardware để kiếm tra lại các thiếp lập.
-15.  New CD/DVD  (IDE) > Use ISO image file và chọn đến đường dẫn file ISO centos 7 đã tải về ở trên. Sau đó ấn Close.
+15. New CD/DVD  (IDE) > Use ISO image file và chọn đến đường dẫn file ISO centos 7 đã tải về ở trên. Sau đó ấn Close.
 16. Chọn Finish
 17. Khởi động centos bằng Power on this virtual machine
 18. Chọn Install centos 7
@@ -51,7 +51,7 @@ Sau khi cài đặt xong, click chọn Finish để hoàn tất việc cài đ�
 23. Mục NETWORK & HOST NAME, chọn ON > Done
 24. Chọn Begin Installation
 25. Thiết lập tài khoản ROOT, tài khoản này rất quan trọng nên cần phải ghi nhớ mật khẩu
-26.  Chờ máy tự động cài đặt, bạn chờ khoảng 3 đến 5 phút tuỳ vào cấu hình của máy tính. Click Reboot
+26. Chờ máy tự động cài đặt, bạn chờ khoảng 3 đến 5 phút tuỳ vào cấu hình của máy tính. Click Reboot
 27. Tick chọn I accept the license agreement
 28. Tạo tài khoản mới để đăng nhập vào hệ thống.
 29. Set mật khẩu cho tài khoản của bạn vừa tạo lúc nãy. LƯU Ý 2 MẬT KHẨU ROOT VÀ USER KHÁC NHAU
@@ -59,6 +59,5 @@ Sau khi cài đặt xong, click chọn Finish để hoàn tất việc cài đ�
 
  
 
-Chúc các bạn cài đặt thành công, ngoài ra để có những trải kiểm tốt hơn trên máy ảo VMware khi cài đặt centos 7 các bạn có thể năng cấp ram của mình hoặc nâng cấp ổ cứng lên. Ngoài ra bạn có thể tham khảo tại tungphatcomputer.com tại đây chúng tôi có cung cấp các thiết bị máy tính, ổ cứng SSD,HDD …, mọi thắc mắc xin liên hệ Tùng Phát Computer.
-
+Chúc các bạn cài đặt thành công, ngoài ra để có những trải kiểm tốt hơn trên máy ảo VMware khi cài đặt centos 7 các bạn có thể năng cấp ram của mình hoặc nâng cấp ổ cứng lên. 
  
