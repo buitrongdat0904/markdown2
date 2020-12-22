@@ -10,7 +10,7 @@ Vì nó có cấu trúc ngắn gọn dễ hiểu và dễ viết.
   Phần này chúng ta sẽ tìm hiểu một số cú pháp phổ biến được sử dụng trong **Markdown**.
 
 ## Heading.
-  Trong html ta sử dụng các cặp thẻ từ <h1> đến <h6> để hiển thị tiêu đề thì trong ** Markdown** ta sử sụng các dấu * để đánh dấu tiêu đề.
+  Trong html ta sử dụng các cặp thẻ từ h1 đến h6 để hiển thị tiêu đề thì trong ** Markdown** ta sử sụng các dấu từ 1* đến 6 sao ******  để đánh dấu tiêu đề.
 
 ## Chữ viết.
   Ta viết chữu trong cặp dấu ** thì được chữ **in đậm** và cặp dấu * cho chữ *in nghiêng*.
