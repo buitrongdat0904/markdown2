@@ -35,6 +35,28 @@ Dể đánh dấu liên kết ta sd 2 cặp dấu là:
 vd: [wibu](https://visadep.vn/wp-content/uploads/2020/07/1-1.png)
 
 
+## Bảng
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+|Bảng       | Cột 1     | Cột 2   |
+|-----------|:---------:|--------:|
+|Hàng 1     |H1C1       | H1C2    |
+|Hàng 2     |H2C1       | H2C2    |
+|Hàng 3     |H3C1       | H3C2    |
+|Hàng 4     |H4C1       | H4C2    |
+
+## Đánh dấu
+  Ta sử dụng dấu ">" để chú thích 1 đoạn vb
+  
+  
+  vd  >Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the Universe trying to produce bigger and better idiots. So far, the Universe is winning.
+
+
 
 
 
