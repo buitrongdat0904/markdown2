@@ -51,10 +51,9 @@ vd: [wibu](https://visadep.vn/wp-content/uploads/2020/07/1-1.png)
 |Hàng 4     |H4C1       | H4C2    |
 
 ## Đánh dấu
-  Ta sử dụng dấu ">" để chú thích 1 đoạn vb
+  Ta sử dụng dấu ">" để chú thích 1 đoạn vb  
   
-  
-  vd  >Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the Universe trying to produce bigger and better idiots. So far, the Universe is winning.
+ > Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the Universe trying to produce bigger and better idiots. So far, the Universe is winning.
 
 
 
