@@ -216,6 +216,9 @@ Quá trình boot và bung file Ubuntu ra máy ảo đang diễn ra. Bạn đợi
 **Vậy là thành công rồi !**
 
 
+>Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the Universe trying to produce bigger and better idiots. So far, the Universe is winning.
+
+
  
 
 Chúc các bạn cài đặt thành công, ngoài ra để có những trải kiểm tốt hơn trên máy ảo VMware khi cài đặt centos 7 các bạn có thể năng cấp ram của mình hoặc nâng cấp ổ cứng lên. 
