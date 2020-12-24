@@ -18,3 +18,18 @@
  
  ### 6. Đẩy file/folder có tag vừa tạo nên : *git push origin bandautien*
          
+# Cách khác
+### 1. Nhập tên/gmai trong git bằng lệnh: *git config --global user.name "your_name"\ git config --global user.email "your_email"*.
+  > Trong đó *--global* được sử dụng để áp dụng cho tất cả các projects. Nếu bạn ko sử dụng --global thì settings sẽ chỉ dùng cho riêng project đó.
+  
+  ### 2. Lênh sao chép lại kho dữ liệu đã cso sẵn trên git từ trước: *git clone https://github.com/user/.............*
+        > Câu lệnh trên sẽ tạo một thư mục mới có tên giống trên của repo.
+  
+  ### 3.Lệnh cập nhật *git add .*  ----------> *git commit -m "first commit"*  
+  
+  ### 4. Git push.
+  
+  
+  
+  
+  
