@@ -51,11 +51,6 @@
   
   ### 4. Git push.
   
-  # Branch 
-  ## 1. Branch là gì: 
-  
-  
-  4. 
   
          
   
