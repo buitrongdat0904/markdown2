@@ -44,7 +44,6 @@
      > Khi gộp nhánh sẽ có hiện tượng xảy ra xung đột giữa các file/folder
       có sự thay đổi trong 1 nhánh hoặc nhiều nhánh nên có bao nhiêu file/folder
        xung đột thì mở ra để quyết định lấy nội dung nào trong file đó.
-       
        VD: Ở đây file xung đột là 2.txt, mở ra thấy nội dung như sau:
 
       <<<<<<< HEAD
@@ -66,26 +65,45 @@
 
 # Lệnh git cơ bản để upload một file lên GitHub.
 
-### Khai báo
-1. Nhập tên/gmai trong git bằng lệnh: *git config --global user.name "your_name"\ git config --global user.email "your_email"*.
+### 1. Khai báo
+ Nhập tên/gmai trong git bằng lệnh: *git config --global user.name "your_name"\ git config --global user.email "your_email"*.
         Trong đó *--global* được sử dụng để áp dụng cho tất cả các projects. Nếu bạn ko sử dụng --global thì settings sẽ chỉ dùng cho riêng project đó.
   
-  ### 2. Lênh sao chép lại kho dữ liệu đã cso sẵn trên git từ trước: *
+### 2. Lênh sao chép lại kho dữ liệu đã cso sẵn trên git từ trước: *
       git clone https://github.com/user/.............*
        Câu lệnh trên sẽ tạo một thư mục mới có tên giống trên của repo.
   
-  ### 3.Lệnh cập nhật
+### 3. Lệnh cập nhật
      git add .  ----------> git commit -m "first commit"
           Sau khi thay đổi dữ liệu  source code: thêm mới, sửa, xoá files thì cần phải cập nhật lên Staging Area.
           Để cập nhật hết các files lên: $ git add .      
           Sau lệnh add, bạn cần sử dụng câu lệnh Commit để đây thông tin thay đổi lên Local Respository: git commit -m "Message"
   
-  ### 4.Dẩy dữ liệu lên
+### 4. Đẩy dữ liệu lên
     Git push 
+
+### 5. Lấy dữ liệu về máy 
     git pull 
   
-  ## Sự khác biệt giữa user.name và credential
-    -
+### 6. Sự khác biệt giữa user.name và credential
+    user.name: dùng cho khai báo thông tin tên tài khoản cho project 
+    credential: dùng cho việc lưu thông tin đăng nhập trên bộ nhớ
+
+### cấu hình lưu mật khẩu cho git push
+  #### Bước 1: Chạy lệnh $ git config credential.helper store
+    
+
+  #### Bước 2: Thực hiện một thao tác push, lần này git sẽ bắt bạn đăng nhập, nhưng kể từ đó bạn sẽ không cần phải đăng nhập khi thao tác với remote repo.
+
+      [Lần đầu nên phải đăng nhập]
+      $ git config credential.helper store
+      $ git push http://example.com/repo.git
+      Username: <type your username>
+      Password: <type your password>
+ 
+      [Các lần sau không cần đăng nhập]
+      $ git push http://example.com/repo.git
+
 
    
 
