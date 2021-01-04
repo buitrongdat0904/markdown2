@@ -41,18 +41,27 @@
   ### Merge: sử dụng để gộp nhánh, gộp nhánh này vào nhánh khác.
      git merge <name_brance>: 
 
-     > Khi gộp nhánh sẽ có hiện tượng xảy ra xung đột giữa các file/folder có sự thay đổi trong 1 nhánh hoặc nhiều nhánh nên có bao nhiêu file/folder xung đột thì mở ra để quyết định lấy nội dung nào trong file đó.VD: Ở đây file xung đột là 2.txt, mở ra thấy nội dung như sau:
+     > Khi gộp nhánh sẽ có hiện tượng xảy ra xung đột giữa các file/folder
+      có sự thay đổi trong 1 nhánh hoặc nhiều nhánh nên có bao nhiêu file/folder
+       xung đột thì mở ra để quyết định lấy nội dung nào trong file đó.
+       
+       VD: Ở đây file xung đột là 2.txt, mở ra thấy nội dung như sau:
 
       <<<<<<< HEAD
       Sua loi tren 1.txt
       =======
       Update new content to file
       >>>>>>> alpha
-      nội dung xung đột nó đánh dấu bên trong các ký hiệu, nội dung nằm giữa <<<<<<< HEAD và ======= là nội dung có từ master, còn nội dung nằm giữa ======= và >>>>>>> alpha là nội dung từ alpha. Giữa hai nội dung đó lấy nội dung nào thì giữ, còn lại thì xóa hết. Ví dụ file trên giữ lại nội dung như sau (nội dung từ alpha)
+      nội dung xung đột nó đánh dấu bên trong các ký hiệu,
+      
+       nội dung nằm giữa <<<<<<< HEAD và ======= là nội dung có từ master,
+        còn nội dung nằm giữa ======= và >>>>>>> alpha là nội dung từ alpha.
+         Giữa hai nội dung đó lấy nội dung nào thì giữ, còn lại thì xóa hết.
+          Ví dụ file trên giữ lại nội dung như sau (nội dung từ alpha)
 
   ### Revert : Sau khi sử dụng lệnh "git merge" để gộp nhánh mà muốn khôi khục lại nhánh trc thfi ta dùng lệnh này để quay lại trước khi gọp nhánh
    git merge "nd"
-   
+
 
 
 # Lệnh git cơ bản để upload một file lên GitHub.
